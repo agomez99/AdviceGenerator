@@ -5,18 +5,25 @@ body {
 }
 
 .card-body{
+    margin-top: 5%;
 }
 
 .main-card{
     width: 35rem;
-    height:25rem;
+    height:19.5rem;
     background-color: hsl(217, 19%, 24%);
     border-radius: 20px;
-    margin-top: 15%;
+    margin-top: 10%;
+    padding: 0rem 2rem 0rem 2rem;
 }
 .title-text{
     color:hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    font-size:smaller;
     font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+
+
 }
 .body-text{
     color:hsl(193, 38%, 86%);
@@ -25,16 +32,16 @@ body {
 }
 
 .divider-div{
-    display: flex;
+    margin-bottom: 3rem;
+    width: 100%;
 }
 .desk-divider{
     margin-bottom: 2rem;
     width: 100%;
     padding: 0rem 2.5rem 0rem 2.5rem;
 }
-
 .mobile-divider{
-    display:none;
+   display: none;
 
 }
 .dice-btn{
@@ -57,3 +64,40 @@ body {
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media only screen and (max-width: 480px) {
+    .body-text{
+        color:hsl(193, 38%, 86%);
+        font-size: 1.5rem;
+        font-family: 'Manrope', sans-serif;
+        padding: 0%;
+    }
+    .divider-div{
+        margin-bottom: 1rem;
+        width: 100%;
+        padding: 0%;
+    }
+    .card-body{
+        margin-top: 10%;
+        padding: 0%;
+    }
+    
+    .mobile-divider{
+        display: flex;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+    
+    .desk-divider{
+        display: none;
+    }
+    
+    .main-card{
+        width: 35rem;
+        height:19rem;
+        background-color: hsl(217, 19%, 24%);
+        border-radius: 20px;
+        margin-top: 25%;
+    }
+  }
