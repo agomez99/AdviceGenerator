@@ -82,7 +82,7 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (min-width: 500px) {
+@media screen and (max-width: 600px) {
   .body-text {
     color: hsl(0, 0%, 100%);
     font-family: 'Manrope', sans-serif;
@@ -103,7 +103,7 @@ body {
   .main-card {
     background-color: hsl(217, 19%, 24%);
     border-radius: 20px;
-    margin-top: 40%;
+    margin-top: 80%;
     width: 35rem;
     height:100%;
   }
